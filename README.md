@@ -1,39 +1,39 @@
 # mogitate
 
 ## 環境構築
-Dockerビルド
- 1.git clone git@github.com:ArigaAii/mogitate.git
- 2.DockerDesktopアプリを立ち上げる
- 3.docker-compose up -d --build
+### Dockerビルド
+  1. git clone git@github.com:ArigaAii/mogitate.git
+  1. DockerDesktopアプリを立ち上げる
+  1. docker-compose up -d --build
 
- Laravel環境構築
- 1.docker-compose exec php bash
- 2.composer install
- 3.「.env.example」ファイルを 「.env」ファイルに命名を変更。または、新しく.envファイルを作成
- 4..envに以下の環境変数を追加
-  DB_CONNECTION=mysql
-  DB_HOST=mysql
-  DB_PORT=3306
-  DB_DATABASE=laravel_db
-  DB_USERNAME=laravel_user
-  DB_PASSWORD=laravel_pass
-5.アプリケーションキーの作成
+### Laravel環境構築
+  1. docker-compose exec php bash
+  1. composer install
+  1. 「.env.example」ファイルを 「.env」ファイルに命名を変更。または、新しく.envファイルを作成
+  1. .envに以下の環境変数を追加
+  DB_CONNECTION=mysql. 
+  DB_HOST=mysql. 
+  DB_PORT=3306. 
+  DB_DATABASE=laravel_db. 
+  DB_USERNAME=laravel_user. 
+  DB_PASSWORD=laravel_pass. 
+  1. アプリケーションキーの作成
   php artisan key:generate
-6.マイグレーションの実行
+  1. マイグレーションの実行
   php artisan migrate
-7.シーディングの実行
+  1. シーディングの実行
   php artisan db:seed
 
 ## 使用技術(実行環境)
-・PHP8.3.0
-・Laravel8.83.27
-・MySQL8.0.26
+  * PHP8.3.0
+  * Laravel8.83.27
+  * MySQL8.0.26
 
 ## ER図
 
 ## URL
-・開発環境：http://localhost/
-・phpMyAdmin:：http://localhost:8080/
+  * 開発環境：http://localhost/
+  * phpMyAdmin:：http://localhost:8080/
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
