@@ -2,8 +2,11 @@
 
 ## 環境構築
 ### Dockerビルド
-  1. git clone git@github.com:ArigaAii/mogitate.git
+  1. git clone https://github.com/ArigaAii/mogitate.git
+# または SSH の場合
+# git clone git@github.com:ArigaAii/mogitate.git
   1. DockerDesktopアプリを立ち上げる
+  1. cd mogitate
   1. docker-compose up -d --build
 
 ### Laravel環境構築
