@@ -1,0 +1,110 @@
+/* ===========================
+   全体レイアウト
+=========================== */
+.register-container {
+    width: 85%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px 60px;
+}
+
+/* タイトル */
+.register-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+/* ===========================
+   フォーム全体
+=========================== */
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+/* ラベル */
+.register-label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* 必須バッジ */
+.required-badge {
+    background: #ff4d4d;
+    color: #fff;
+    padding: 2px 6px;
+    margin-left: 8px;   /* ← ラベルとの余白 */
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+
+/* 入力欄 */
+.register-input,
+.register-textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* テキストエリア */
+.register-textarea {
+    height: 150px;
+    resize: none;
+}
+
+/* 画像アップロード */
+.register-image-input {
+    margin-top: 5px;
+}
+
+/* チェックボックス */
+.season-checkboxes {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+
+/* ===========================
+   エラーメッセージ
+=========================== */
+.error-message {
+    color: #ff4d4d;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+/* ===========================
+   ボタンエリア
+=========================== */
+.register-buttons {
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* 戻るボタン */
+.btn--back {
+    background: #d7d5e0;
+    padding: 10px 60px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+
+/* 登録ボタン */
+.btn--submit {
+    background: #ffd700;
+    padding: 10px 60px;
+    border-radius: 6px;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+}

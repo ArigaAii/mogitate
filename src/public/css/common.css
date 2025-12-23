@@ -1,0 +1,21 @@
+html,
+body {
+  padding: auto;
+  background-color: rgb(248, 248, 248);
+  height: 100%;
+}
+
+.header__heading {
+  background-color: #fff;
+  color: #ffd700;
+  font-weight: lighter;
+  font-family: "Dancing Script", cursive;
+  font-size: 32px;
+  grid-column: 2;
+}
+
+.content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
